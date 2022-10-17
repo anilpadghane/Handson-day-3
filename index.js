@@ -20,7 +20,7 @@ app.get('/About',(req,res) => {
     res.send("Hi Node js!! THIS IS ABOUT PAGE!!");
 })
 
-app.get("/contact",middlewareTwo,(req,res) => {
+app.get("/contact",middlewareOne,(req,res) => {
     res.send("THIS IS CONATCT  PAGE");
 })
 
